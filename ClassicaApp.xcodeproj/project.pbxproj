@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A85A4A8283E2CAC00325392 /* ClassicaInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85A4A7283E2CAC00325392 /* ClassicaInfoModel.swift */; };
+		5A85A4A9283E2CAC00325392 /* ClassicaInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85A4A7283E2CAC00325392 /* ClassicaInfoModel.swift */; };
+		5AB293AB283CB478008A4A0B /* ClassicaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB29398283CB473008A4A0B /* ClassicaAppApp.swift */; };
+		5AB293AC283CB478008A4A0B /* ClassicaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB29398283CB473008A4A0B /* ClassicaAppApp.swift */; };
+		5AB293AD283CB478008A4A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB29399283CB473008A4A0B /* ContentView.swift */; };
+		5AB293AE283CB478008A4A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB29399283CB473008A4A0B /* ContentView.swift */; };
+		5AB293AF283CB478008A4A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB2939A283CB477008A4A0B /* Assets.xcassets */; };
+		5AB293B0283CB478008A4A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB2939A283CB477008A4A0B /* Assets.xcassets */; };
+		5AB293C2283CCA6F008A4A0B /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293C1283CCA6F008A4A0B /* SongCard.swift */; };
+		5AB293C3283CCA6F008A4A0B /* SongCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293C1283CCA6F008A4A0B /* SongCard.swift */; };
+		5AB293C7283CCADC008A4A0B /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293C6283CCADC008A4A0B /* SongInfo.swift */; };
+		5AB293C8283CCADC008A4A0B /* SongInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293C6283CCADC008A4A0B /* SongInfo.swift */; };
+		5AB293CC283CD1B2008A4A0B /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293CB283CD1B2008A4A0B /* ScaleButtonStyle.swift */; };
+		5AB293CD283CD1B2008A4A0B /* ScaleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293CB283CD1B2008A4A0B /* ScaleButtonStyle.swift */; };
+		5AB293D2283CDAD1008A4A0B /* ClassicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293D1283CDAD1008A4A0B /* ClassicaModel.swift */; };
+		5AB293D3283CDAD1008A4A0B /* ClassicaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB293D1283CDAD1008A4A0B /* ClassicaModel.swift */; };
+		5AB293DE283CDBE0008A4A0B /* Waltz of the Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DA283CDBE0008A4A0B /* Waltz of the Flowers.mp3 */; };
+		5AB293DF283CDBE0008A4A0B /* Waltz of the Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DA283CDBE0008A4A0B /* Waltz of the Flowers.mp3 */; };
+		5AB293E0283CDBE0008A4A0B /* Ride of the Valkyries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DB283CDBE0008A4A0B /* Ride of the Valkyries.mp3 */; };
+		5AB293E1283CDBE0008A4A0B /* Ride of the Valkyries.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DB283CDBE0008A4A0B /* Ride of the Valkyries.mp3 */; };
+		5AB293E2283CDBE0008A4A0B /* 1812 Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DC283CDBE0008A4A0B /* 1812 Overture.mp3 */; };
+		5AB293E3283CDBE0008A4A0B /* 1812 Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DC283CDBE0008A4A0B /* 1812 Overture.mp3 */; };
+		5AB293E4283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DD283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 */; };
+		5AB293E5283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AB293DD283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A85A4A7283E2CAC00325392 /* ClassicaInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicaInfoModel.swift; sourceTree = "<group>"; };
+		5AB29398283CB473008A4A0B /* ClassicaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicaAppApp.swift; sourceTree = "<group>"; };
+		5AB29399283CB473008A4A0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AB2939A283CB477008A4A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AB2939F283CB477008A4A0B /* ClassicaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB293A2283CB477008A4A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB293A7283CB477008A4A0B /* ClassicaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB293A9283CB478008A4A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB293AA283CB478008A4A0B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5AB293C1283CCA6F008A4A0B /* SongCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCard.swift; sourceTree = "<group>"; };
+		5AB293C6283CCADC008A4A0B /* SongInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInfo.swift; sourceTree = "<group>"; };
+		5AB293CB283CD1B2008A4A0B /* ScaleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonStyle.swift; sourceTree = "<group>"; };
+		5AB293D1283CDAD1008A4A0B /* ClassicaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicaModel.swift; sourceTree = "<group>"; };
+		5AB293DA283CDBE0008A4A0B /* Waltz of the Flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Waltz of the Flowers.mp3"; sourceTree = "<group>"; };
+		5AB293DB283CDBE0008A4A0B /* Ride of the Valkyries.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ride of the Valkyries.mp3"; sourceTree = "<group>"; };
+		5AB293DC283CDBE0008A4A0B /* 1812 Overture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1812 Overture.mp3"; sourceTree = "<group>"; };
+		5AB293DD283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9th Symphony (Finale).mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AB2939C283CB477008A4A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB293A4283CB477008A4A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AB29392283CB473008A4A0B = {
+			isa = PBXGroup;
+			children = (
+				5AB293BC283CB544008A4A0B /* Models */,
+				5AB293BB283CB538008A4A0B /* Views */,
+				5AB293BE283CB566008A4A0B /* Styles */,
+				5AB293BD283CB557008A4A0B /* Songs */,
+				5AB29397283CB473008A4A0B /* Shared */,
+				5AB293A1283CB477008A4A0B /* iOS */,
+				5AB293A8283CB478008A4A0B /* macOS */,
+				5AB293A0283CB477008A4A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AB29397283CB473008A4A0B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5AB29398283CB473008A4A0B /* ClassicaAppApp.swift */,
+				5AB2939A283CB477008A4A0B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5AB293A0283CB477008A4A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AB2939F283CB477008A4A0B /* ClassicaApp.app */,
+				5AB293A7283CB477008A4A0B /* ClassicaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AB293A1283CB477008A4A0B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5AB293A2283CB477008A4A0B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5AB293A8283CB478008A4A0B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5AB293A9283CB478008A4A0B /* Info.plist */,
+				5AB293AA283CB478008A4A0B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5AB293BB283CB538008A4A0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AB29399283CB473008A4A0B /* ContentView.swift */,
+				5AB293C1283CCA6F008A4A0B /* SongCard.swift */,
+				5AB293C6283CCADC008A4A0B /* SongInfo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AB293BC283CB544008A4A0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AB293D1283CDAD1008A4A0B /* ClassicaModel.swift */,
+				5A85A4A7283E2CAC00325392 /* ClassicaInfoModel.swift */,
+			);
+			name = Models;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AB293BD283CB557008A4A0B /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				5AB293DD283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 */,
+				5AB293DC283CDBE0008A4A0B /* 1812 Overture.mp3 */,
+				5AB293DB283CDBE0008A4A0B /* Ride of the Valkyries.mp3 */,
+				5AB293DA283CDBE0008A4A0B /* Waltz of the Flowers.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		5AB293BE283CB566008A4A0B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5AB293CB283CD1B2008A4A0B /* ScaleButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AB2939E283CB477008A4A0B /* ClassicaApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB293B3283CB478008A4A0B /* Build configuration list for PBXNativeTarget "ClassicaApp (iOS)" */;
+			buildPhases = (
+				5AB2939B283CB477008A4A0B /* Sources */,
+				5AB2939C283CB477008A4A0B /* Frameworks */,
+				5AB2939D283CB477008A4A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClassicaApp (iOS)";
+			productName = "ClassicaApp (iOS)";
+			productReference = 5AB2939F283CB477008A4A0B /* ClassicaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AB293A6283CB477008A4A0B /* ClassicaApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB293B6283CB478008A4A0B /* Build configuration list for PBXNativeTarget "ClassicaApp (macOS)" */;
+			buildPhases = (
+				5AB293A3283CB477008A4A0B /* Sources */,
+				5AB293A4283CB477008A4A0B /* Frameworks */,
+				5AB293A5283CB477008A4A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClassicaApp (macOS)";
+			productName = "ClassicaApp (macOS)";
+			productReference = 5AB293A7283CB477008A4A0B /* ClassicaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AB29393283CB473008A4A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5AB2939E283CB477008A4A0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5AB293A6283CB477008A4A0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5AB29396283CB473008A4A0B /* Build configuration list for PBXProject "ClassicaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AB29392283CB473008A4A0B;
+			productRefGroup = 5AB293A0283CB477008A4A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AB2939E283CB477008A4A0B /* ClassicaApp (iOS) */,
+				5AB293A6283CB477008A4A0B /* ClassicaApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AB2939D283CB477008A4A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB293E0283CDBE0008A4A0B /* Ride of the Valkyries.mp3 in Resources */,
+				5AB293E4283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 in Resources */,
+				5AB293AF283CB478008A4A0B /* Assets.xcassets in Resources */,
+				5AB293E2283CDBE0008A4A0B /* 1812 Overture.mp3 in Resources */,
+				5AB293DE283CDBE0008A4A0B /* Waltz of the Flowers.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB293A5283CB477008A4A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB293E1283CDBE0008A4A0B /* Ride of the Valkyries.mp3 in Resources */,
+				5AB293E5283CDBE0008A4A0B /* 9th Symphony (Finale).mp3 in Resources */,
+				5AB293B0283CB478008A4A0B /* Assets.xcassets in Resources */,
+				5AB293E3283CDBE0008A4A0B /* 1812 Overture.mp3 in Resources */,
+				5AB293DF283CDBE0008A4A0B /* Waltz of the Flowers.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AB2939B283CB477008A4A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB293C7283CCADC008A4A0B /* SongInfo.swift in Sources */,
+				5AB293CC283CD1B2008A4A0B /* ScaleButtonStyle.swift in Sources */,
+				5A85A4A8283E2CAC00325392 /* ClassicaInfoModel.swift in Sources */,
+				5AB293D2283CDAD1008A4A0B /* ClassicaModel.swift in Sources */,
+				5AB293C2283CCA6F008A4A0B /* SongCard.swift in Sources */,
+				5AB293AD283CB478008A4A0B /* ContentView.swift in Sources */,
+				5AB293AB283CB478008A4A0B /* ClassicaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AB293A3283CB477008A4A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB293C8283CCADC008A4A0B /* SongInfo.swift in Sources */,
+				5AB293CD283CD1B2008A4A0B /* ScaleButtonStyle.swift in Sources */,
+				5A85A4A9283E2CAC00325392 /* ClassicaInfoModel.swift in Sources */,
+				5AB293D3283CDAD1008A4A0B /* ClassicaModel.swift in Sources */,
+				5AB293C3283CCA6F008A4A0B /* SongCard.swift in Sources */,
+				5AB293AE283CB478008A4A0B /* ContentView.swift in Sources */,
+				5AB293AC283CB478008A4A0B /* ClassicaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AB293B1283CB478008A4A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AB293B2283CB478008A4A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5AB293B4283CB478008A4A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3Y4N3PX89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heriemarie.ClassicaApp;
+				PRODUCT_NAME = ClassicaApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AB293B5283CB478008A4A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3Y4N3PX89;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.heriemarie.ClassicaApp;
+				PRODUCT_NAME = ClassicaApp;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AB293B7283CB478008A4A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q3Y4N3PX89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heriemarie.ClassicaApp;
+				PRODUCT_NAME = ClassicaApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5AB293B8283CB478008A4A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q3Y4N3PX89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heriemarie.ClassicaApp;
+				PRODUCT_NAME = ClassicaApp;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AB29396283CB473008A4A0B /* Build configuration list for PBXProject "ClassicaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB293B1283CB478008A4A0B /* Debug */,
+				5AB293B2283CB478008A4A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB293B3283CB478008A4A0B /* Build configuration list for PBXNativeTarget "ClassicaApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB293B4283CB478008A4A0B /* Debug */,
+				5AB293B5283CB478008A4A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AB293B6283CB478008A4A0B /* Build configuration list for PBXNativeTarget "ClassicaApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AB293B7283CB478008A4A0B /* Debug */,
+				5AB293B8283CB478008A4A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AB29393283CB473008A4A0B /* Project object */;
+}
